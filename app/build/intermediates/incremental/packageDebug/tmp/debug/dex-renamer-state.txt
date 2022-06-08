@@ -1,0 +1,4 @@
+#Wed Jun 08 23:34:34 CEST 2022
+base.0=C\:\\Users\\l.martini\\AndroidStudioProjects\\ZSDK_DemosAndroid\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,488 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zebra.android.devdemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:7:5-9:41
+8        android:minSdkVersion="15"
+8-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:8:9-35
+9        android:targetSdkVersion="32" />
+9-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:11:5-68
+11-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:11:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:12:5-74
+12-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:12:22-71
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+13-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:13:5-86
+13-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:13:22-83
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:14:5-67
+14-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:14:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:15:5-81
+15-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:15:22-78
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:16:5-65
+16-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:16:22-62
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:17:5-66
+17-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:17:22-63
+18    <uses-permission android:name="android.permission.FLASHLIGHT" />
+18-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:18:5-69
+18-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:18:22-66
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:19:2-76
+19-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:19:19-73
+20
+21    <uses-feature
+21-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:21:2-83
+22        android:name="android.hardware.usb.host"
+22-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:21:16-56
+23        android:required="false" />
+23-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:21:57-81
+24    <uses-feature android:name="android.hardware.camera" />
+24-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:23:5-60
+24-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:23:19-57
+25    <uses-feature android:name="android.hardware.camera.autofocus" />
+25-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:24:5-70
+25-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:24:19-67
+26
+27    <application
+27-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:26:5-241:23
+28        android:allowBackup="false"
+28-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:29:9-36
+29        android:debuggable="true"
+30        android:icon="@drawable/icon"
+30-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:27:9-38
+31        android:label="@string/app_name"
+31-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:28:9-41
+32        android:testOnly="true" >
+33        <activity
+33-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:30:9-40:20
+34            android:name="com.zebra.android.devdemo.LoadDevDemo"
+34-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:31:13-65
+35            android:exported="true"
+35-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:34:13-36
+36            android:label="@string/app_name"
+36-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:32:13-45
+37            android:screenOrientation="portrait" >
+37-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:33:13-49
+38            <intent-filter>
+38-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:35:13-39:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:36:17-69
+39-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:36:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:38:17-77
+41-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:38:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:41:9-47:55
+45            android:name="com.zebra.android.devdemo.discovery.DiscoveryDemo"
+45-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:42:13-77
+46            android:configChanges="keyboardHidden|orientation"
+46-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:43:13-63
+47            android:exported="true"
+47-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:46:13-36
+48            android:label="Discovery Demo"
+48-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:44:13-43
+49            android:screenOrientation="portrait"
+49-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:45:13-49
+50            android:windowSoftInputMode="adjustPan" />
+50-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:47:13-52
+51        <activity
+51-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:48:9-54:55
+52            android:name="com.zebra.android.devdemo.discovery.BluetoothDiscovery"
+52-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:49:13-82
+53            android:configChanges="keyboardHidden|orientation"
+53-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:50:13-63
+54            android:exported="true"
+54-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:53:13-36
+55            android:label="Discovered Printers"
+55-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:51:13-48
+56            android:screenOrientation="portrait"
+56-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:52:13-49
+57            android:windowSoftInputMode="adjustPan" />
+57-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:54:13-52
+58        <activity
+58-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:55:9-61:55
+59            android:name="com.zebra.android.devdemo.discovery.MulticastDiscoveryResultList"
+59-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:56:13-92
+60            android:configChanges="keyboardHidden|orientation"
+60-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:57:13-63
+61            android:exported="true"
+61-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:60:13-36
+62            android:label="Discovered Printers"
+62-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:58:13-48
+63            android:screenOrientation="portrait"
+63-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:59:13-49
+64            android:windowSoftInputMode="adjustPan" />
+64-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:61:13-52
+65        <activity
+65-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:62:9-68:55
+66            android:name="com.zebra.android.devdemo.discovery.DirectedBroadcastResultList"
+66-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:63:13-91
+67            android:configChanges="keyboardHidden|orientation"
+67-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:64:13-63
+68            android:exported="true"
+68-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:67:13-36
+69            android:label="Discovered Printers"
+69-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:65:13-48
+70            android:screenOrientation="portrait"
+70-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:66:13-49
+71            android:windowSoftInputMode="adjustPan" />
+71-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:68:13-52
+72        <activity
+72-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:69:9-75:55
+73            android:name="com.zebra.android.devdemo.discovery.DirectedBroadcastParameters"
+73-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:70:13-91
+74            android:configChanges="keyboardHidden|orientation"
+74-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:71:13-63
+75            android:exported="true"
+75-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:74:13-36
+76            android:label="Directed Broadcast Parameters"
+76-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:72:13-58
+77            android:screenOrientation="portrait"
+77-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:73:13-49
+78            android:windowSoftInputMode="adjustPan" />
+78-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:75:13-52
+79        <activity
+79-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:76:9-82:55
+80            android:name="com.zebra.android.devdemo.discovery.SubnetSearchResultList"
+80-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:77:13-86
+81            android:configChanges="keyboardHidden|orientation"
+81-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:78:13-63
+82            android:exported="true"
+82-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:81:13-36
+83            android:label="Discovered Printers"
+83-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:79:13-48
+84            android:screenOrientation="portrait"
+84-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:80:13-49
+85            android:windowSoftInputMode="adjustPan" />
+85-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:82:13-52
+86        <activity
+86-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:83:9-89:55
+87            android:name="com.zebra.android.devdemo.discovery.SubnetSearchParameters"
+87-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:84:13-86
+88            android:configChanges="keyboardHidden|orientation"
+88-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:85:13-63
+89            android:exported="true"
+89-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:88:13-36
+90            android:label="Subnet Search Parameters"
+90-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:86:13-53
+91            android:screenOrientation="portrait"
+91-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:87:13-49
+92            android:windowSoftInputMode="adjustPan" />
+92-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:89:13-52
+93        <activity
+93-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:90:9-96:55
+94            android:name="com.zebra.android.devdemo.discovery.LocalBroadcastDiscoveryResultList"
+94-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:91:13-97
+95            android:configChanges="keyboardHidden|orientation"
+95-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:92:13-63
+96            android:exported="true"
+96-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:95:13-36
+97            android:label="Discovered Printers"
+97-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:93:13-48
+98            android:screenOrientation="portrait"
+98-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:94:13-49
+99            android:windowSoftInputMode="adjustPan" />
+99-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:96:13-52
+100        <activity
+100-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:97:9-103:55
+101            android:name="com.zebra.android.devdemo.discovery.FindPrintersDiscoveryResultList"
+101-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:98:13-95
+102            android:configChanges="keyboardHidden|orientation"
+102-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:99:13-63
+103            android:exported="true"
+103-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:102:13-36
+104            android:label="Discovered Printers"
+104-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:100:13-48
+105            android:screenOrientation="portrait"
+105-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:101:13-49
+106            android:windowSoftInputMode="adjustPan" />
+106-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:103:13-52
+107        <activity
+107-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:104:9-110:55
+108            android:name="com.zebra.android.devdemo.discovery.MulticastDiscoveryParameters"
+108-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:105:13-92
+109            android:configChanges="keyboardHidden|orientation"
+109-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:106:13-63
+110            android:exported="true"
+110-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:109:13-36
+111            android:label="Multicast Parameters"
+111-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:107:13-49
+112            android:screenOrientation="portrait"
+112-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:108:13-49
+113            android:windowSoftInputMode="adjustPan" />
+113-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:110:13-52
+114        <activity
+114-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:111:9-117:55
+115            android:name="com.zebra.android.devdemo.imageprint.ImagePrintDemo"
+115-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:112:13-79
+116            android:configChanges="keyboardHidden|orientation"
+116-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:113:13-63
+117            android:exported="true"
+117-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:116:13-36
+118            android:label="Image Print Demo"
+118-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:114:13-45
+119            android:screenOrientation="portrait"
+119-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:115:13-49
+120            android:windowSoftInputMode="adjustPan" />
+120-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:117:13-52
+121        <activity
+121-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:118:9-124:55
+122            android:name="com.zebra.android.devdemo.magcard.MagCardDemo"
+122-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:119:13-73
+123            android:configChanges="keyboardHidden|orientation"
+123-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:120:13-63
+124            android:exported="true"
+124-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:123:13-36
+125            android:label="Mag Card Demo"
+125-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:121:13-42
+126            android:screenOrientation="portrait"
+126-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:122:13-49
+127            android:windowSoftInputMode="adjustPan" />
+127-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:124:13-52
+128        <activity
+128-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:125:9-131:55
+129            android:name="com.zebra.android.devdemo.status.PrintStatusDemo"
+129-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:126:13-76
+130            android:configChanges="keyboardHidden|orientation"
+130-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:127:13-63
+131            android:exported="true"
+131-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:130:13-36
+132            android:label="Printer Status Demo"
+132-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:128:13-48
+133            android:screenOrientation="portrait"
+133-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:129:13-49
+134            android:windowSoftInputMode="adjustPan" />
+134-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:131:13-52
+135        <activity
+135-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:132:9-138:55
+136            android:name="com.zebra.android.devdemo.smartcard.SmartCardDemo"
+136-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:133:13-77
+137            android:configChanges="keyboardHidden|orientation"
+137-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:134:13-63
+138            android:exported="true"
+138-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:137:13-36
+139            android:label="Smart Card Demo"
+139-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:135:13-44
+140            android:screenOrientation="portrait"
+140-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:136:13-49
+141            android:windowSoftInputMode="adjustPan" />
+141-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:138:13-52
+142        <activity
+142-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:139:9-145:55
+143            android:name="com.zebra.android.devdemo.sigcapture.SigCaptureDemo"
+143-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:140:13-79
+144            android:configChanges="keyboardHidden|orientation"
+144-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:141:13-63
+145            android:exported="true"
+145-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:144:13-36
+146            android:label="Signature Capture Demo"
+146-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:142:13-51
+147            android:screenOrientation="portrait"
+147-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:143:13-49
+148            android:windowSoftInputMode="adjustPan" />
+148-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:145:13-52
+149        <activity
+149-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:146:9-152:55
+150            android:name="com.zebra.android.devdemo.sendfile.SendFileDemo"
+150-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:147:13-75
+151            android:configChanges="keyboardHidden|orientation"
+151-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:148:13-63
+152            android:exported="true"
+152-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:151:13-36
+153            android:label="Send File Demo"
+153-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:149:13-43
+154            android:screenOrientation="portrait"
+154-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:150:13-49
+155            android:windowSoftInputMode="adjustPan" />
+155-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:152:13-52
+156        <activity
+156-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:153:9-159:55
+157            android:name="com.zebra.android.devdemo.storedformat.StoredFormatScreen"
+157-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:154:13-85
+158            android:configChanges="keyboardHidden|orientation"
+158-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:155:13-63
+159            android:exported="true"
+159-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:158:13-36
+160            android:label="Stored Format Demo"
+160-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:156:13-47
+161            android:screenOrientation="portrait"
+161-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:157:13-49
+162            android:windowSoftInputMode="adjustPan" />
+162-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:159:13-52
+163        <activity
+163-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:160:9-165:55
+164            android:name="com.zebra.android.devdemo.storedformat.StoredFormatDemo"
+164-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:161:13-83
+165            android:configChanges="keyboardHidden|orientation"
+165-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:162:13-63
+166            android:exported="true"
+166-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:164:13-36
+167            android:screenOrientation="portrait"
+167-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:163:13-49
+168            android:windowSoftInputMode="adjustPan" />
+168-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:165:13-52
+169        <activity
+169-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:166:9-171:55
+170            android:name="com.zebra.android.devdemo.storedformat.VariablesScreen"
+170-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:167:13-82
+171            android:configChanges="keyboardHidden|orientation"
+171-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:168:13-63
+172            android:exported="true"
+172-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:170:13-36
+173            android:screenOrientation="portrait"
+173-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:169:13-49
+174            android:windowSoftInputMode="adjustPan" />
+174-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:171:13-52
+175        <activity
+175-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:172:9-178:55
+176            android:name="com.zebra.android.devdemo.connectivity.ConnectivityDemo"
+176-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:173:13-83
+177            android:configChanges="keyboardHidden|orientation"
+177-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:174:13-63
+178            android:exported="true"
+178-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:177:13-36
+179            android:label="Connectivity Demo"
+179-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:175:13-46
+180            android:screenOrientation="portrait"
+180-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:176:13-49
+181            android:windowSoftInputMode="adjustPan" />
+181-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:178:13-52
+182        <activity
+182-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:179:9-185:55
+183            android:name="com.zebra.android.devdemo.status.PrinterStatusScreen"
+183-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:180:13-80
+184            android:configChanges="keyboardHidden|orientation"
+184-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:181:13-63
+185            android:exported="true"
+185-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:184:13-36
+186            android:label="Status Messages"
+186-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:182:13-44
+187            android:screenOrientation="portrait"
+187-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:183:13-49
+188            android:windowSoftInputMode="adjustPan" />
+188-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:185:13-52
+189        <activity
+189-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:186:9-192:55
+190            android:name="com.zebra.android.devdemo.listformats.ListFormatsScreen"
+190-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:187:13-83
+191            android:configChanges="keyboardHidden|orientation"
+191-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:188:13-63
+192            android:exported="true"
+192-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:191:13-36
+193            android:label="List Formats Demo"
+193-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:189:13-46
+194            android:screenOrientation="portrait"
+194-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:190:13-49
+195            android:windowSoftInputMode="adjustPan" />
+195-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:192:13-52
+196        <activity
+196-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:193:9-198:55
+197            android:name="com.zebra.android.devdemo.listformats.ListFormatsDemo"
+197-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:194:13-81
+198            android:configChanges="keyboardHidden|orientation"
+198-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:195:13-63
+199            android:exported="true"
+199-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:197:13-36
+200            android:screenOrientation="portrait"
+200-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:196:13-49
+201            android:windowSoftInputMode="adjustPan" />
+201-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:198:13-52
+202        <activity
+202-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:199:9-205:55
+203            android:name="com.zebra.android.devdemo.statuschannel.StatusChannelDemo"
+203-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:200:13-85
+204            android:configChanges="keyboardHidden|orientation"
+204-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:201:13-63
+205            android:exported="true"
+205-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:204:13-36
+206            android:label="Status Channel"
+206-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:202:13-43
+207            android:screenOrientation="portrait"
+207-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:203:13-49
+208            android:windowSoftInputMode="adjustPan" />
+208-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:205:13-52
+209        <activity
+209-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:206:9-212:55
+210            android:name="com.zebra.android.devdemo.statuschannel.StatusChannelScreen"
+210-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:207:13-87
+211            android:configChanges="keyboardHidden|orientation"
+211-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:208:13-63
+212            android:exported="true"
+212-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:211:13-36
+213            android:label="Status Channel View"
+213-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:209:13-48
+214            android:screenOrientation="portrait"
+214-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:210:13-49
+215            android:windowSoftInputMode="adjustPan" />
+215-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:212:13-52
+216        <activity
+216-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:213:9-219:55
+217            android:name="com.zebra.android.devdemo.multichannel.MultiChannelDemo"
+217-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:214:13-83
+218            android:configChanges="keyboardHidden|orientation"
+218-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:215:13-63
+219            android:exported="true"
+219-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:218:13-36
+220            android:label="Multichannel"
+220-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:216:13-41
+221            android:screenOrientation="portrait"
+221-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:217:13-49
+222            android:windowSoftInputMode="adjustPan" />
+222-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:219:13-52
+223        <activity
+223-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:220:9-226:55
+224            android:name="com.zebra.android.devdemo.multichannel.MultiChannelScreen"
+224-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:221:13-85
+225            android:configChanges="keyboardHidden|orientation"
+225-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:222:13-63
+226            android:exported="true"
+226-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:225:13-36
+227            android:label="Multichannel View"
+227-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:223:13-46
+228            android:screenOrientation="portrait"
+228-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:224:13-49
+229            android:windowSoftInputMode="adjustPan" />
+229-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:226:13-52
+230        <activity
+230-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:227:9-233:55
+231            android:name="com.zebra.android.devdemo.connectionbuilder.ConnectionBuilderDemo"
+231-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:228:13-93
+232            android:configChanges="keyboardHidden|orientation"
+232-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:229:13-63
+233            android:exported="true"
+233-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:232:13-36
+234            android:label="Connection Builder Demo"
+234-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:230:13-52
+235            android:screenOrientation="portrait"
+235-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:231:13-49
+236            android:windowSoftInputMode="adjustPan" />
+236-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:233:13-52
+237        <activity
+237-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:234:9-240:55
+238            android:name="com.zebra.android.devdemo.receipt.ReceiptDemo"
+238-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:235:13-73
+239            android:configChanges="keyboardHidden|orientation"
+239-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:236:13-63
+240            android:exported="true"
+240-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:239:13-36
+241            android:label="Receipt Demo"
+241-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:237:13-41
+242            android:screenOrientation="portrait"
+242-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:238:13-49
+243            android:windowSoftInputMode="adjustPan" />
+243-->C:\Users\l.martini\AndroidStudioProjects\ZSDK_DemosAndroid\app\src\main\AndroidManifest.xml:240:13-52
+244    </application>
+245
+246</manifest>
